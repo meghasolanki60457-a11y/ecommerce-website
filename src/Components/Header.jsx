@@ -1,3 +1,4 @@
+import {Link} from "react-router-dom";
 function Home() {
   return (
     <>
@@ -18,9 +19,10 @@ function Home() {
 
             <div className="order-lg-last col-lg-5 col-sm-8 col-8">
               <div className="d-flex float-end">
-                  <a href="https://github.com/mdbootstrap/bootstrap-material-design" class="me-1 border rounded py-1 px-3 nav-link d-flex align-items-center" target="_blank"> <i class="fas fa-user-alt m-1 me-md-2"></i><p class="d-none d-md-block mb-0">Sign in</p> </a>
-            <a href="https://github.com/mdbootstrap/bootstrap-material-design" class="me-1 border rounded py-1 px-3 nav-link d-flex align-items-center" target="_blank"> <i class="fas fa-heart m-1 me-md-2"></i><p class="d-none d-md-block mb-0">Wishlist</p> </a>
-            <a href="https://github.com/mdbootstrap/bootstrap-material-design" class="border rounded py-1 px-3 nav-link d-flex align-items-center" target="_blank"> <i class="fas fa-shopping-cart m-1 me-md-2"></i><p class="d-none d-md-block mb-0">My cart</p> </a> 
+                <Link to= "/login">
+                  <a href="#" class="me-1 border rounded py-1 px-3 nav-link d-flex align-items-center text-dark text-decoration-none" target="_blank"> <i class="fas fa-user-alt m-1 me-md-2"></i><p class="d-none d-md-block mb-0">Sign in</p> </a></Link>
+            <a href="#" class="me-1 border rounded py-1 px-3 nav-link d-flex align-items-center" target="_blank"> <i class="fas fa-heart m-1 me-md-2"></i><p class="d-none d-md-block mb-0">Wishlist</p> </a>
+            <a href="#" class="border rounded py-1 px-3 nav-link d-flex align-items-center" target="_blank"> <i class="fas fa-shopping-cart m-1 me-md-2"></i><p class="d-none d-md-block mb-0">My cart</p> </a> 
               </div>
             </div>
 
@@ -44,32 +46,19 @@ function Home() {
           <div class="collapse navbar-collapse" id="navbarLeftAlignExample">
     
         <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <Link to="/">
           <li class="nav-item">
-            <a class="nav-link text-dark" aria-current="page" href="#">Home</a>
-          </li>
+            <a class="nav-link text-dark text-decoration-none" aria-current="page" href="#">Home</a>
+          </li></Link>
+          <Link to="/products">
           <li class="nav-item">
-            <a class="nav-link text-dark" href="#">Categories</a>
+            <a class="nav-link text-dark" href="#">Products</a>
           </li>
-          <li class="nav-item">
-            <a class="nav-link text-dark" href="#">Hot offers</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link text-dark" href="#">Gift boxes</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link text-dark" href="#">Projects</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link text-dark" href="#">Menu item</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link text-dark" href="#">Menu name</a>
-          </li>
+          </Link>
+        
         
           <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle text-dark" href="#" id="navbarDropdown" role="button" data-mdb-toggle="dropdown" aria-expanded="false">
-              Others
-            </a>
+           
     
             <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
               <li>

@@ -17,7 +17,7 @@ function App(){
             <p className="card-text">$790.50</p>
             <div className="card-footer d-flex align-items-end pt-3 px-0 pb-0 mt-auto">
               <Link to= "/Products">
-              <button  className="btn btn-primary shadow-0 me-1">Add to cart</button>
+              <button  className="btn btn-primary shadow-0 me-1">View</button>
               </Link>
               <a href="#!" className="btn btn-light border px-2 pt-2 icon-hover"><i className="fas fa-heart fa-lg text-secondary px-1"></i></a>
             </div>
@@ -32,7 +32,7 @@ function App(){
             <p className="card-text">$320.00</p>
             <div className="card-footer d-flex align-items-end pt-3 px-0 pb-0 mt-auto">
                <Link to= "/Products">
-              <button  className="btn btn-primary shadow-0 me-1">Add to cart</button>
+              <button  className="btn btn-primary shadow-0 me-1">View</button>
               </Link>
               <a href="#!" className="btn btn-light border px-2 pt-2 icon-hover"><i className="fas fa-heart fa-lg text-secondary px-1"></i></a>
             </div>
@@ -47,7 +47,7 @@ function App(){
             <p className="card-text">$120.00</p>
             <div className="card-footer d-flex align-items-end pt-3 px-0 pb-0 mt-auto">
               <Link to= "/Products">
-              <button  className="btn btn-primary shadow-0 me-1">Add to cart</button>
+              <button  className="btn btn-primary shadow-0 me-1">View</button>
               </Link>
               <a href="#!" className="btn btn-light border px-2 pt-2 icon-hover"><i className="fas fa-heart fa-lg text-secondary px-1"></i></a>
             </div>
@@ -62,7 +62,7 @@ function App(){
             <p className="card-text">$120.00</p>
             <div className="card-footer d-flex align-items-end pt-3 px-0 pb-0 mt-auto">
              <Link to= "/Products">
-              <button  className="btn btn-primary shadow-0 me-1">Add to cart</button>
+              <button  className="btn btn-primary shadow-0 me-1">View</button>
               </Link>
               <a href="#!" className="btn btn-light border px-2 pt-2 icon-hover"><i className="fas fa-heart fa-lg text-secondary px-1"></i></a>
             </div>
@@ -77,7 +77,7 @@ function App(){
             <p className="card-text">$790.50</p>
             <div className="card-footer d-flex align-items-end pt-3 px-0 pb-0 mt-auto">
               <Link to= "/Products">
-              <button  className="btn btn-primary shadow-0 me-1">Add to cart</button>
+              <button  className="btn btn-primary shadow-0 me-1">View</button>
               </Link>
               <a href="#!" className="btn btn-light border px-2 pt-2 icon-hover"><i className="fas fa-heart fa-lg text-secondary px-1"></i></a>
             </div>
@@ -92,7 +92,7 @@ function App(){
             <p className="card-text">$120.00</p>
             <div className="card-footer d-flex align-items-end pt-3 px-0 pb-0 mt-auto">
               <Link to= "/Products">
-              <button  className="btn btn-primary shadow-0 me-1">Add to cart</button>
+              <button  className="btn btn-primary shadow-0 me-1">View</button>
               </Link>
               <a href="#!" className="btn btn-light border px-2 pt-2 icon-hover"><i className="fas fa-heart fa-lg text-secondary px-1"></i></a>
             </div>
@@ -107,7 +107,7 @@ function App(){
             <p className="card-text">$99.50</p>
             <div className="card-footer d-flex align-items-end pt-3 px-0 pb-0 mt-auto">
                <Link to= "/Products">
-              <button  className="btn btn-primary shadow-0 me-1">Add to cart</button>
+              <button  className="btn btn-primary shadow-0 me-1">View</button>
               </Link>
               <a href="#!" className="btn btn-light border icon-hover px-2 pt-2"><i className="fas fa-heart fa-lg text-secondary px-1"></i></a>
             </div>
@@ -123,7 +123,7 @@ function App(){
             <div className="card-footer d-flex align-items-end pt-3 px-0 pb-0 mt-auto">
               
                <Link to= "/Products">
-              <button  className="btn btn-primary shadow-0 me-1">Add to cart</button>
+              <button  className="btn btn-primary shadow-0 me-1">View</button>
               </Link>
               <a href="#!" className="btn btn-light border px-2 pt-2 icon-hover"><i className="fas fa-heart fa-lg text-secondary px-1"></i></a>
             </div>
