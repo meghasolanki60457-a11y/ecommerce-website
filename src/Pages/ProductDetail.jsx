@@ -24,30 +24,7 @@ function ProductDetail() {
         <div className="row">
 
           {/* 🟡 Sidebar */}
-          <div className="col-lg-3">
-            <div className="card p-3 mb-4">
-
-              <h5>Filters</h5>
-
-              <h6>Category</h6>
-              <ul className="list-unstyled">
-                <li>Men's clothing</li>
-                <li>Shoes</li>
-                <li>Accessories</li>
-              </ul>
-
-              <h6>Price</h6>
-              <input type="range" className="form-range" />
-
-              <h6>Size</h6>
-              <div className="d-flex gap-2 flex-wrap">
-                <button className="btn btn-outline-secondary btn-sm">S</button>
-                <button className="btn btn-outline-secondary btn-sm">M</button>
-                <button className="btn btn-outline-secondary btn-sm">L</button>
-              </div>
-
-            </div>
-          </div>
+        
 
           {/* 🟢 Product Detail */}
           <div className="col-lg-9">
